@@ -5,7 +5,7 @@ import Home from './pages/Home'
 import Login from './pages/Login'
 import SingUp from './pages/SingUp'
 import Navbar from './components/Navbar'
-import Dashboard from './pages/Dashboard'
+import Dashboard from './pages/DashBoard.jsx'
 import PrivateRoute from './components/PrivateRoute'
 
 function App() {
