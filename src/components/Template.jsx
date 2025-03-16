@@ -32,11 +32,14 @@ const Template = ({title, desc1, desc2, formtype, image, setIsLoggedIn }) => {
                 <div className='w-full h-[1px] bg-white'></div>
             </div>
 
-            <button  className='w-full flex justify-center items-center rounded-[8px] font-medium  text-yellow-300
-            border border-richblack-700 px-[12px] py-[8px] gap-x-2 mt-6 '>
+            
+            
+            <button  className='w-full flex justify-center items-center rounded-[8px] font-medium  text-black
+            border border-richblack-700 px-[12px] py-[8px] gap-x-2 mt-6 bg-yellow-50 '>
               <FcGoogle/>
               <p>Sign Up with Google</p>
             </button>
+            
       </div>
 
        <div className='relative w-11/12 max-w-[450px] '>
